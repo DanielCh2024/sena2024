@@ -1,6 +1,12 @@
 @extends('layouts.app')
 @section('titulo','Consultar productos')
 @section('contenido')
+    {{-- botón para crear un nuevo producto --}}
+    <div class="flex justify-start m-6">
+        <a href="{{ route('productos.create') }}" class="btn btn-outline">Crear Producto</a>
+    </div>
+    
+    {{-- Listado de productos --}}
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 m-6">
         @foreach ($productos as $producto)
             <div class="card w-60 bg-base-100 shadow-xl">
