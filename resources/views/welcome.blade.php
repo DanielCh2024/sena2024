@@ -1,13 +1,13 @@
 @extends('layouts.app')
-@section('titulo','Consultar productos')
+@section('titulo','Consultar Tienda')
 @section('contenido')
-<div class="hero min-h-screen" style="background-image: url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg);">
+<div class="hero min-h-screen" style="background-image: url(https://i0.wp.com/nombresparanegociosexitosos.com/wp-content/uploads/2023/12/Como-Atraer-Clientes-a-Una-Tienda-de-Ropa.jpg?resize=1024%2C576&ssl=1);">
     <div class="hero-overlay bg-opacity-60"></div>
     <div class="hero-content text-center text-neutral-content">
       <div class="max-w-md">
-        <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
-        <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-        <button class="btn btn-primary">Get Started</button>
+        <h1 class="mb-5 text-5xl font-bold">BIENVENIDO A MR. JEANS TIENDA</h1>
+        <p class="mb-5">ROPA FRESCA Y ACTUAL DE LA MEJOR CALIDAD AL MEJOR PRECIO</p>
+        <button class="btn btn-primary">Iniciar Experiencia</button>
       </div>
     </div>
   </div>
