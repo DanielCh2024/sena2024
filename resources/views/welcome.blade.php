@@ -7,7 +7,7 @@
       <div class="max-w-md">
         <h1 class="mb-5 text-5xl font-bold">BIENVENIDO A MR. JEANS TIENDA</h1>
         <p class="mb-5">ROPA FRESCA Y ACTUAL DE LA MEJOR CALIDAD AL MEJOR PRECIO</p>
-        <button class="btn btn-primary">Iniciar Experiencia</button>
+        <a href="{{ route('productos.index') }}" class= "btn btn-primary">Iniciar Experiancia!</a>
       </div>
     </div>
   </div>

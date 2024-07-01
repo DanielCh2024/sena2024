@@ -4,9 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
-
-        <title>@yield('titulo','MR. JEANS TIENDA')</title>
-
+        <title>@yield('titulo','Mr.JeansTienda')</title>
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
@@ -17,12 +15,12 @@
         </header>
         <main>
             <div class="bg-green-100 my-4 text-center">
-                <h1 class="text-lg font-semibold m-4 uppercase">@yield('cabecera')</h1>
+             <h1 class="text-lg font-semibold m-4 uppercase">@yield('cabecera')</h1>
             </div>
             @yield('contenido')
         </main>
         <footer class="footer items-center p-4 bg-neutral text-neutral-content">
-            @include('layouts.footer')
+          @include('layouts.footer')
         </footer>
     </body>
 </html>

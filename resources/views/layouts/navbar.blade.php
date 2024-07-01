@@ -42,9 +42,9 @@
             <a href="{{ route('profile.edit') }}">Mi perfil</a>
           </li>
           <li>
-            <form method="POST" action="{{ route('Cerrar sesión') }}">
+            <form method="POST" action="{{ route('logout') }}">
               @csrf
-              <a href="{{ route('Cerrar sesión') }}" onclick="event.preventDefault(); this.closest('form').submit();">Cerrar sesión</a>
+              <a href="{{ route('logout') }}" onclick="event.preventDefault(); this.closest('form').submit();">Cerrar sesión</a>
             </form>
           </li>
         </ul>
